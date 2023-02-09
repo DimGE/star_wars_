@@ -1,0 +1,29 @@
+.random-planet{
+    margin: 15px 0;
+    display: flex;
+    width: 100%;
+    background-color: #444444;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.random-planet_img{
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 20px ;
+}
+.random-planet_title{
+    font-size: 1.4em;
+}
+.random-planet_description{
+    margin-left: 15px;
+}
+.random-planet_logo{
+    width: 150px;
+    margin-left: auto;
+    margin-right: 10%;
+}
+@media (max-width: 768px) {
+    .random-planet_logo{
+        display: none;
+    }
+}

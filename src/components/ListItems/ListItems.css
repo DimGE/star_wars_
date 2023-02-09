@@ -1,0 +1,18 @@
+.list-group-item{
+
+
+}
+.list-group{
+    min-width: 320px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.list-group-item:hover{
+    background-color: #444444;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.list-items{
+    display: flex;
+    flex-wrap: wrap;
+}

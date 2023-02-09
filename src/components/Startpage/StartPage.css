@@ -1,0 +1,23 @@
+.start-page{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.start-page_title{
+    text-align: center;
+    color: darkorange;
+    font-size: 50px;
+}
+.start-page_description{
+    text-align: center;
+    /*margin-top: 20px;*/
+    color: darkorange;
+    font-size: 30px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+.carousel{
+    width: 70%;
+    margin: 10px auto;
+}

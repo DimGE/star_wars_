@@ -1,0 +1,23 @@
+.error-block{
+    display: flex;
+    /*flex-direction: column;*/
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: #444444;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: darkorange;
+}
+.error-block_title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.error-block_img{
+    width: 250px;
+}
+.error-block_description{
+    text-align: center;
+}

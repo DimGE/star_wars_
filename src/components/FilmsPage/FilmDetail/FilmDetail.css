@@ -1,0 +1,48 @@
+.film-detail_item{
+    margin-top: 35px 50px ;
+
+}
+.film-detail_item_hedear{
+    display: flex;
+    flex-wrap: wrap;
+}
+.film-details_item_text{
+    margin: 5px 0 0 15px;
+}
+.film-details_item_description{
+    margin-top: 20px;
+    max-width: 400px;
+}
+span{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.film-details_item_characters{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.film-characters_img{
+    max-width: 200px;
+}
+.film-details_item_heroes {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: darkorange;
+    margin-top: 50px;
+}
+.film-characters{
+    display: flex;
+    flex-direction: column;
+}
+.film-characters_name{
+    background-color: #444444;
+    padding: 7px 0 7px 20px;
+    /*text-align: center;*/
+    font-size: 1.1em;
+    border-radius: 0 0 7px 7px;
+}

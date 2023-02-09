@@ -1,0 +1,31 @@
+.person-details{
+    display: flex;
+    background-color: #444444;
+    padding: 1em;
+    /*margin-top: 25px;*/
+    border-radius: 10px;
+    /*height: 235px;*/
+    flex: 1;
+    /*max-width: 100%;*/
+}
+.person-details_img{
+    width: 170px;
+    height: 250px;
+    border-radius: 10px;
+}
+.person-details_text{
+    margin-left: 20px;
+    width: 100%;
+}
+.person-details_name{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.person-details_description{
+    margin-left: 15px;
+   display: flex;
+    align-items: center;
+    height: 35px;
+    border-top: 1px solid black;
+
+}

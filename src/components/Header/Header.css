@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.header_title {
+    font-size: 2em;
+}
+
+.header_list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.header_list_item {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 5px 10px;
+    padding: 5px 5px;
+}
+
+.header_list_item:hover {
+    background-color: #444;
+    cursor: pointer;
+}
